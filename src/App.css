@@ -78,19 +78,19 @@ h1,h2,h3,p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-width: 300px;
-    min-height: 400px;
+    min-width: 280px;
+    min-height: 350px;
     padding: 1em;
     border-radius: 20px;
 }
 
 .card-weather--title{
-    font-size: 2rem;
+    /* font-size: 2rem; */
 }
 
 .card-weather--description{
     padding: 0.25em 0 1.5em 0;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
 
 }
 
@@ -103,8 +103,8 @@ h1,h2,h3,p{
     border: 1px solid rgba(255, 255, 255, 0.4)white;
     margin-bottom: 2em;
     background-color: rgba(255, 255, 255, 0.4) ;
-    font-size: 1.5rem;
-    /* #474A56 */
+    /* font-size: 1.5rem; */
+  
     /* &:before{
         content: '';
         width: 100%;
@@ -126,7 +126,7 @@ h1,h2,h3,p{
 .card-weather__body--left h3{
     padding-top:0;
     position: absolute;
-    top:3.1em;
+    top:4.2em;
     color: white;
 }
 .card-weather__body--right{
@@ -144,7 +144,7 @@ span{
 }
 
 .card-weather--button{
-    font-size: 1.8rem;
+    font-size: 1rem;
     border: 1px solid #00f5d4;
     border-radius: 10px;
     color: white;
