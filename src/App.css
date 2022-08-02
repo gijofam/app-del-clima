@@ -1,0 +1,160 @@
+img{
+    width: 100%;
+    /* object-fit: auto; */
+    /* overflow: hidden; */
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+
+/* stilos componente general el padre APP*/
+body{
+    margin: 0;
+    color:white;
+    padding:0;
+}
+
+h1,h2,h3,p{
+    margin: 0;
+    padding: 0 0;
+    color: #00f5d4;
+
+}
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-image: url('../public/foggy.jpg'); */
+}
+.could{
+    background-image: url('../public/could.jpg');
+    background-size: cover ;
+    background-position: center;
+}
+.rain{
+    background-image: url('../public/rain.jpg');
+    background-size: cover ;
+    background-position: center;
+
+}
+.wind{
+    background-image: url('../public/wind.jpg');
+    background-size: cover ;
+    background-position: center;
+
+}
+.sunny{
+    background-image: url('../public/sunny.jpg');
+    background-size: cover ;
+    background-position: center;
+
+}
+.snow{
+    background-image: url('../public/snow.jpg');
+    background-size: cover ;
+    background-position: center;
+
+}
+/* componente Isloading */
+.container{
+    background-color: lightslategray;
+    /* margin: 0; */
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* componente weather */
+.card-weather{
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+    min-height: 400px;
+    padding: 1em;
+    border-radius: 20px;
+}
+
+.card-weather--title{
+    font-size: 2rem;
+}
+
+.card-weather--description{
+    padding: 0.25em 0 1.5em 0;
+    font-size: 1.5rem;
+
+}
+
+.card-weather__body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.4)white;
+    margin-bottom: 2em;
+    background-color: rgba(255, 255, 255, 0.4) ;
+    font-size: 1.5rem;
+    /* #474A56 */
+    /* &:before{
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-image:url('../public/rain.jpg');
+        opacity: 0.5;
+        top:0;
+        } */
+}
+
+.card-weather__body--left {
+    padding-bottom:0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    align-items: center;
+    position: relative;
+}
+.card-weather__body--left h3{
+    padding-top:0;
+    position: absolute;
+    top:3.1em;
+    color: white;
+}
+.card-weather__body--right{
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+li{
+    padding-bottom: 0.5em;
+}
+span{
+    color: #00f5d4;
+    /* color: black; */
+}
+
+.card-weather--button{
+    font-size: 1.8rem;
+    border: 1px solid #00f5d4;
+    border-radius: 10px;
+    color: white;
+    background-color: #00f5d4;
+}
+.card-weather--button:hover{
+    cursor: pointer;
+}
+.seleccion:hover{
+    box-shadow: 5px 5px 20px rgba(6, 241, 186, 0.3);
+    transform: translateY(-3%);
+    transition: all 400ms ease;
+}
